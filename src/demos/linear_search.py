@@ -9,6 +9,11 @@ def iter_search(items, target): # O(n)
     # return False
     return False
 
+    # for num in nums:
+    #     if target == num:
+    #         return nums.index(num)
+    # return -1
+
 def rec_search(items, target): # O(n)
     # some sort of breakout clause / base case
     # if we pass in an empty array?
